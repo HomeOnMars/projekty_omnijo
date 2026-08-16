@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" width="270" height="270">
+  <metadata>
+    <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <cc:Work>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+        <dc:date>2026-02-12T15:05:44.641135+00:00</dc:date>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:title>OCFI Emblem</dc:title>
+        <dc:creator>HomeOnMars</dc:creator>
+        <dc:rights rdf:about="https://creativecommons.org/licenses/by-nc-sa/4.0/">This work © 2026 by HomeOnMars is licensed under CC BY-NC-SA 4.0.</dc:rights>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g transform="rotate(-60 135.0 135.0)">
+    <path stroke="#9370DB" stroke-width="10.546875" d="M 176.77327355663869 103.78125 L 93.22672644336131 103.78125 L 135.0 181.828125 Z " stroke-linejoin="round" fill="none"/>
+    <path stroke="#9370DB" stroke-width="10.546875" d="M 135.0 56.953125 L 93.22672644336131 103.78125 L 176.77327355663869 103.78125 Z " stroke-linejoin="round" fill="none"/>
+    <path stroke="#9370DB" stroke-width="10.546875" d="M 135.0 56.953125 L 67.40942356401138 95.9765625 L 93.22672644336131 103.78125 Z " stroke-linejoin="round" fill="none"/>
+    <path stroke="#9370DB" stroke-width="10.546875" d="M 67.40942356401138 95.9765625 L 67.40942356401138 174.0234375 L 93.22672644336131 103.78125 Z " stroke-linejoin="round" fill="none"/>
+    <path stroke="#9370DB" stroke-width="10.546875" d="M 67.40942356401138 174.0234375 L 135.0 181.828125 L 93.22672644336131 103.78125 Z " stroke-linejoin="round" fill="none"/>
+    <path stroke="#9370DB" stroke-width="10.546875" d="M 67.40942356401138 174.0234375 L 135.0 213.046875 L 135.0 181.828125 Z " stroke-linejoin="round" fill="none"/>
+    <path stroke="#9370DB" stroke-width="10.546875" d="M 135.0 213.046875 L 202.59057643598862 174.0234375 L 135.0 181.828125 Z " stroke-linejoin="round" fill="none"/>
+    <path stroke="#9370DB" stroke-width="10.546875" d="M 202.59057643598862 174.0234375 L 176.77327355663869 103.78125 L 135.0 181.828125 Z " stroke-linejoin="round" fill="none"/>
+    <path stroke="#9370DB" stroke-width="10.546875" d="M 202.59057643598862 174.0234375 L 202.59057643598862 95.9765625 L 176.77327355663869 103.78125 Z " stroke-linejoin="round" fill="none"/>
+    <path stroke="#9370DB" stroke-width="10.546875" d="M 202.59057643598862 95.9765625 L 135.0 56.953125 L 176.77327355663869 103.78125 Z " stroke-linejoin="round" fill="none"/>
+  </g>
+</svg>

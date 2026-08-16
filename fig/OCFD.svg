@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" width="270" height="270">
+  <metadata>
+    <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <cc:Work>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+        <dc:date>2026-02-12T15:05:43.093632+00:00</dc:date>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:title>OCFD Emblem</dc:title>
+        <dc:creator>HomeOnMars</dc:creator>
+        <dc:rights rdf:about="https://creativecommons.org/licenses/by-nc-sa/4.0/">This work © 2026 by HomeOnMars is licensed under CC BY-NC-SA 4.0.</dc:rights>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g>
+    <path stroke="#D2691E" stroke-width="16.875" d="M 165.375 87.85546875 L 74.25 87.85546875 L 135.0 209.35546875 L 195.75 87.85546875 L 192.375 87.85546875 L 131.625 209.35546875" fill="none"/>
+  </g>
+</svg>

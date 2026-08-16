@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" width="270" height="270">
+  <metadata>
+    <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <cc:Work>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+        <dc:date>2026-02-12T14:53:15.627837+00:00</dc:date>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:title>OCFE Emblem</dc:title>
+        <dc:creator>HomeOnMars</dc:creator>
+        <dc:rights rdf:about="https://creativecommons.org/licenses/by-nc-sa/4.0/">This work © 2026 by HomeOnMars is licensed under CC BY-NC-SA 4.0.</dc:rights>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <marker id="OCFEMarker" refX="2.5" refY="2.5" markerUnits="strokeWidth" markerWidth="5" markerHeight="5">
+    <circle stroke="#00BFFF" cx="2.5" cy="2.5" r="1.5" fill="#FFFFFF"/>
+  </marker>
+  <g>
+    <path stroke="#00BFFF" stroke-width="6.328125" d="M 95.21759530197184 75.32639295295776 L 196.25836397610837 172.29600440440137 L 63.28125 135.0 L 196.25836397610837 97.70399559559861 L 95.21759530197184 194.67360704704222" marker-start="url('#OCFEMarker')" marker-mid="url('#OCFEMarker')" marker-end="url('#OCFEMarker')" stroke-linejoin="round" fill="none"/>
+  </g>
+</svg>

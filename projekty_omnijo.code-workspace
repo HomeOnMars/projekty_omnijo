@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"chat.agent.enabled": false,
+		"terminal.integrated.initialHint": false
+	}
+}

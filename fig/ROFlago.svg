@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" width="480" height="270">
+  <metadata>
+    <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <cc:Work>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+        <dc:date>2025-11-21T13:06:23.738492+00:00</dc:date>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:title>La Regno de Omnijo (RdO) flag (fictional) for my world-building project</dc:title>
+        <dc:creator>HomeOnMars</dc:creator>
+        <dc:rights rdf:about="https://creativecommons.org/licenses/by-nc-sa/4.0/">This work © 2025 by HomeOnMars is licensed under CC BY-NC-SA 4.0.</dc:rights>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs>
+    <linearGradient gradientTransform="scale(0.5625 1) translate(0.34201388888888884 0.0) rotate(-33.690067525979785 0.5 0.5)" id="RdOColorGradient">
+      <stop offset="0.1875" stop-opacity="0" stop-color="#00BFFF"/>
+      <stop offset="0.4999990463256836" stop-opacity="1" stop-color="#95D0FC"/>
+      <stop offset="0.5000009536743164" stop-opacity="1" stop-color="#D6B4FC"/>
+      <stop offset="0.8125" stop-opacity="0" stop-color="#9370DB"/>
+    </linearGradient>
+  </defs>
+  <path d="M 0 270 L 317.34375 270 L 137.34375000000003 0 L 0 0 Z " fill="#00BFFF"/>
+  <path d="M 480 270 L 480 0 L 137.34375000000003 0 L 317.34375 270 Z " fill="#9370DB"/>
+  <rect x="0" y="0" width="480" height="270" fill="url('#RdOColorGradient')"/>
+  <path stroke="#E6DAA6" stroke-width="16.875" d="M 175.8606380378459 57.77533205676889 A 92.8125 92.8125 0.0 1 0 247.47760811629416 44.39763847667691" fill="none"/>
+  <path stroke="#E6DAA6" stroke-width="18.984375" d="M 292.28267531589887 37.59161202615166 A 117.0703125 117.0703125 0.0 0 1 292.28267531589887 232.40838797384836" fill="none"/>
+</svg>

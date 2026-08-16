@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid meet" width="270" height="270">
+  <metadata>
+    <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <cc:Work>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+        <dc:date>2025-11-21T13:06:20.849754+00:00</dc:date>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:title>OCG Emblem</dc:title>
+        <dc:creator>HomeOnMars</dc:creator>
+        <dc:rights rdf:about="https://creativecommons.org/licenses/by-nc-sa/4.0/">This work © 2025 by HomeOnMars is licensed under CC BY-NC-SA 4.0.</dc:rights>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path stroke="#E6DAA6" stroke-width="12.65625" d="M 83.5168880378459 57.77533205676889 A 92.8125 92.8125 0.0 1 0 155.13385811629414 44.39763847667691" fill="none"/>
+  <path stroke="#00BFFF" stroke-width="12.65625" d="M 188.69592119635345 81.30407880364655 A 75.9375 75.9375 0.0 1 0 188.69592119635342 188.69592119635345" fill="none"/>
+  <path stroke="#9370DB" stroke-width="12.65625" d="M 176.76349426383047 93.23650573616955 A 59.0625 59.0625 0.0 1 0 176.76349426383044 176.76349426383047 A 29.53125 36.9140625 -315.0 1 0 135.0 135.0" fill="none"/>
+  <path stroke="#B7E1A1" stroke-width="12.65625" d="M 207.0439602736676 47.79443723481202 L 135.0 12.65625 L 62.95603972633238 47.794437234811966" fill="none"/>
+  <path stroke="#D6B4FC" stroke-width="12.65625" d="M 23.566887497424204 136.0546875 L 23.56688749742419 199.3359375 L 78.37005758065818 230.97656250000006" fill="none"/>
+  <path stroke="#95D0FC" stroke-width="12.65625" d="M 191.62994241934175 230.9765625 L 246.43311250257577 199.33593750000006 L 246.43311250257577 136.05468750000006" fill="none"/>
+</svg>
