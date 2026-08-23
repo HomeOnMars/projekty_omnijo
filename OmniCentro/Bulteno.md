@@ -48,7 +48,7 @@ Bulteno
 *Regnʌ Omnijo* is a fictional monarchy located on the fictional island *Insulʌ Omnijo* in the Southern Hemisphere somewhere in between Chile and New Zealand, near 56°15'S, 140°15'W[^Bulteno-Loko-1]. The island has a size of approximately Iceland or Java island, i.e. $\sim 8000_H \  \textrm{JU}^2 \approx 2^{17_D} \  \textrm{km}^2 \approx 132 \  000_D \  \textrm{km}^2$[^Bulteno-Loko-2]. The island is incredibly remote and geographically isolated, with the closest land being *Antarctica* ≈ 4 MU (≈ Dx2100 km) away, second closest being *New Zealand* ≈ 7 MU (≈ Dx3600 km) away, and third closest being *Chile* ≈ 8 MU (≈ Dx4100 km) away.
 
 [^Bulteno-Loko-1]: `WGS X=-140.25, Y=-56.25`.  
-	Coordinates are fictional- it should be open ocean there in real life.
+	Coordinates are fictional— it should be open ocean there in real life.
 
 [^Bulteno-Loko-2]: Length unit JU is approximately 2km, and 1 MU ≈ Dx256 JU ≈ Dx500 km (see also [Unuoj | Units](../tek/Unuoj.md#longeco) page);  
 	H for hexadecimal, and D for decimal (see also [Lingvo | Langauge](../tek/Lingvo.md#algebro) page).
