@@ -17,7 +17,7 @@ aliases:
 ---
 
 Legal
--------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
 
 > [!WARNING]
 > Standards here may also be updated without notices.  
@@ -25,12 +25,12 @@ Legal
 <p xmlns:cc="http://creativecommons.org/ns#" >This work by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/HomeOnMars">HomeOnMars</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
 Informoj
--------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
 
 > Information (regarding the unit system)  
 > [Back to OmniCentro Content](../OmniCentro/_OmniCentro.md#teknikaj-specifoj)
 
--------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
 
 > When sync-ing with the world is no longer an option, ***de-sync***.  
 > <span style="color:grey">
@@ -53,7 +53,7 @@ The unit system of Omnijo (UnuXitʌ Omnijo, *UXO*) is based on **Planck natural 
 See also [Lingvo](../tek/Lingvo.md#algebro) page for prefix acronyms *H, J, G, M, D, T, I* for Hx10, Hx100, Hx1000, Hx 1 0000 = 1⌄4, 1⌄8, 1⌄Π, 1⌄40, etc; also for Hexadecimal pre/suffix *H* vs Decimal pre/suffix *D*.
 
 Bazaj Unuoj
--------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
 
 > Base units
 
@@ -652,7 +652,7 @@ $$
 $$
 
 Derivitaj Unuoj
--------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
 
 > Derived units
 
@@ -820,7 +820,7 @@ $$
 $$
 
 Kromaĵo
--------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
 
 > Extra
 

@@ -15,7 +15,7 @@ RelatedPages:
 ---
 
 Legal
--------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
 
 > [!WARNING]
 > This is ***a work of fiction***.
@@ -29,7 +29,7 @@ Legal
  <p xmlns:cc="http://creativecommons.org/ns#" >This work by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/HomeOnMars">HomeOnMars</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
 Fonrakonto de la Epopo
--------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
 
 > Background story of Epopo  
 > [Back to OmniCentro Content](../OmniCentro/_OmniCentro.md#detalaj-informoj)
@@ -56,7 +56,7 @@ As <span style="color:Beige">Serena</span> pokes around Esperanto and adjusts he
 [^Lingvo-Historio-2]: One would note how much of those changes seems to be related to programming in one way or another; and one would be right. It makes sense, actually, considering <span style="color:Beige">Serena</span>'s background.
 
 Epopo
--------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
 
 > Epopo
 
@@ -116,8 +116,6 @@ It is important to distinguish between `-ʌ` and `-a`, i.e. "Something is of the
 		- ***la*** mang***o*** ***de la*** profesoro  
 			The mango which is in the professor's possession.
 	- Similarly,
-		- Profesor**o** Mango  
-			A mango related to professors; A mango grown by professors.
 		- Profesor**o** Mango  
 			A mango related to professors; A mango grown by professors.
 		- Profesor**a** Mango  
@@ -527,7 +525,7 @@ In a hypothetical future with a [[ONKIO]]‐based OS, in the command‐line, sin
 	- `{{DatePublished}}` is to give clues as to when the quote was made and/or became public.
 
 > [!Example]
-> 1. "The truth springs from arguments amongst friends." —— // David Hume
+> 1. "The truth springs from argument amongst friends." —— // David Hume
 > 2. "The reason why we are fighting the world so hard is not to change it, but to not let it change us." —— *Silenced* //// 2016.
 > 3. > [!Quote]
 >> They enslave their children's children who make compromise with sin.

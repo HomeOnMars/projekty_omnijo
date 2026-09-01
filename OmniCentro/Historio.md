@@ -15,7 +15,7 @@ RelatedPages:
 ---
 
 Legal
--------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
 
 > [!WARNING]
 > This is ***a work of fiction***.
@@ -26,12 +26,12 @@ Legal
 <p xmlns:cc="http://creativecommons.org/ns#" >This work by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/HomeOnMars">HomeOnMars</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" alt=""></a></p>
 
 La Historio
--------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
 
 > The History  
 > [Back to OmniCentro Content](_OmniCentro.md#fonrakontoj)
 
--------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
 
 (Shorter summary see [backstories summaries](../OmniCentro/Bulteno.md#fonrakontaj-resumoj).)
 
@@ -82,9 +82,16 @@ Granted, for whatever mind boggling reason, the corruption was essentially gone 
 - Hospitals received more funding to keep them well staffed and maintained, allowing them to now properly handle patients from the ever so high accident rates in the area;
 - Even mental healthcare was given the attention it deserves, combating the worrying trend of internet burnout epidemic.
 
-[^Historio-RO-Serena-kmt5]: The OCR app handles all sorts of internal affairs from taxes to pensions. It uses a personalized approach where most forms were already filled out for the users based on what the central gov knows about them. (No, this personalization cannot be opted-out.) It also offers one-to-one consultations with government officials who explains the gov and <span style="color:Beige">Serena</span>'s position and motivation to the citizens, and listens to and answers their concerns. Though the waitlist for the consultations is a bit long in the beginning, it quickly improved in the next few months. Rumor goes that the consultants from the app are AI-generated in real time, which is almost certainly nonsense given the global stagnation of AI development at the time. Probably why those rumors come to be in the first place.
+[^Historio-RO-Serena-kmt5]: The OCR app handles all sorts of internal affairs from taxes to pensions. It uses a personalized approach where most forms were already filled out for the users based on what the central gov knows about them. It also offers one-to-one consultations with government officials who explains the gov and <span style="color:Beige">Serena</span>'s position and motivation to the citizens, and listens to and answers their concerns. Though the waitlist for the consultations is long in the beginning, it quickly improved in the next few months. Rumor goes that the consultants from the app are AI-generated in real time, which is almost certainly nonsense given the global stagnation of AI development at the time. The desperate marketing attempts by the quickly decaying AI-model-developing companies are probably why those rumors come to be in the first place.
 
-But surely people, being people, would anger and rebel on the change of everything they know about their own country?
+But surely people, being people, would anger and rebel on the change of everything they know about their own country?[^Historio-RO-Protestoj]
+
+[^Historio-RO-Protestoj]: Actually, there were quite a few *"successful"* protests happened on the island since Serena's coronation.
+	As an example, there had been a large scale protest from the people to "improve healthcare and overhaul the medical system" happening a few weeks before the foundation of *OmniCentro*. <span style="color:Beige">Serena</span> totally agreed with the protesting people, and happily vowed that she will "fix the problem immediately tonight" in public. The next day, people waked up and found out that ALL doctors and nurses — at least the ones working in public hospitals — were fired from their positions (albeit with generous compensations for everyone); and new staff were hired OVERNIGHT, with the promised *significant structure change* already implemented.
+	One would be crazy to think <span style="color:Beige">she</span> can pull it off this time, even though she has obviously been planning this mass replacement move for a long time… But she did.  
+	The (somehow) much more competent replacement doctors and nurses (who are almost entirely made out of the immigrants from <span style="color:Beige">Serena</span>'s immigration program) successfully made the death rate in hospital dropped to near zero, curing became faster, doctors are more empathetic, and the overall health level in the entire island began to increase. 
+	(Not everyone bought that story though; and the emigration rate reached another high point after this shenanigan.)
+	Funnily enough, despite what Serena calls the "overwhelming successes" of the protests, after the previous similar rounds of protests-and-responses with the overdelivering of the changes in the military / police / government structuring systems, people’s enthusiasm to use their new found power of protesting in Serena’s reign seems to be gradually and awkwardly dying down each time, until it completely fizzled out after the healthcare reform.
 
 … Or they could leave. Which is now easier-than-ever, by the way, as <span style="color:Beige">Reĝinʌ Serena</span> passed several laws allowing the renunciation of citizenship, recognizing dual citizenship, and providing heavy subsidies for transportations both coming to and leaving from the country, as well as a hefty farewell gift package for those who are leaving but either poor or veteran, allowing them to easily establish a new life elsewhere[^Historio-RO-Elmigrado-kmt1]. As such, many people took advantage of this, and emigration rate skyrocketed for weeks, while the population started to drop quickly. As a counter measure, <span style="color:Beige">Serena</span> also passed laws to streamline immigration process as well as to encourage immigrants to move in, and the immigration influx did increase. However, it wasn't nearly enough to stop the population drop— in the beginning.
 
@@ -94,9 +101,9 @@ Then this trend slowed down.
 
 As the next great global economic recession unfolds[^Historio-RO-Recesio], many countries are struggling and tightening their immigration rules. Regnʌ Omnijo, however, did surprisingly well (again), attracting people to stay (or rather, emigration becomes a lot harder). Actually, from an outsider perspective, Omnijo's response was almost perfect[^Historio-RO-Recesio-bankoj]. <span style="color:Beige">Serena</span> was even able to take the chance to re-nationalize many of the private companies in her country — from public transportation, to utilities, banks, manufacturing industries and more — effectively buying out her own country.
 
-[^Historio-RO-Recesio]: This time the recession was triggered by the AI taking over jobs, creating economic instability and large swarms of unemployed people, despite the stagnation of further AI capability development (or rather, because of it, since it now makes sense to stop and develop things based on the existing model without the next one on the line making it obsolete in just a few months.
+[^Historio-RO-Recesio]: This time the recession was triggered by the AI taking the majority of jobs (both white-collar ones and blue collar ones via various intelligent-robots), creating economic instability and large swarms of unemployed people, despite the stagnation of further AI capability development (or rather, because of it, since it now makes sense to actually develop stuff based on the existing model without the next one in the line making the products obsolete in just a few months.
 
-[^Historio-RO-Recesio-bankoj]: When the local banks (and foreign bank branches) failed, instead of bailing them out, <span style="color:Beige">Serena</span> opted for directly taking them over— consolidated them into her own newly opened bank *Bankʌ Omnijo* one by one. A move that many considered crazy — no one even know where she found enough money in the royal coffer to start her own bank (though some guessed that it might have something to do with the <span style="color:Beige">Queen</span>'s recent involvement in the new cryptocurrency) — but ended up working better than expected, actually, with much more competent new management saving the day and integrating everything.
+[^Historio-RO-Recesio-bankoj]: When the local banks (and foreign bank branches) failed, instead of bailing them out, <span style="color:Beige">Serena</span> opted for directly taking them over— consolidated them into her own newly opened bank *Bankʌ Omnijo* one by one. A move that many considered crazy — no one even know where she found enough money in the royal coffer to start her own bank (though some points towards the <span style="color:Beige">Queen</span>'s involvement in the new cryptocurrency, others argue the timing of that couldn't be right) — but ended up working better than expected, actually, with much more competent new management saving the day and integrating everything.
 
 ### La fondo de *OmniCentro*
 
@@ -109,7 +116,7 @@ Soon after, the <span style="color:Beige">Queen</span> announced her new pet pro
 The actual design of the city, though not many care, falls on <span style="color:Beige">Serena</span>'s two friends— <span style="color:#D6B4FC">the Chief Engineer</span> and
 <span style="color:#95D0FC">the Architect</span> of the newly founded *Omnija Department of Infrastructure* (OCFI). It's decided that the new capital will be built in a valley where mountains meets the sea— a place called the [Seaside Valley](https://mods.paradoxplaza.com/mods/82544/Any), Or "*Ĉemarvalo*", about 300km away from the current capital. A totally *ridiculous* place to build a capital city, of course. Reasons? To name a few: a lack of flat areas for easy expansion, its steep altitude changes posing significant problems for building both buildings and transportation, and the temperature and wind speed changes at different altitude are just brutal. Not to mention that the local farmers there are famous for not willing to give up their lands. The only easily capitalizable thing there is the several good spots for building dams[^Historio-OC-barajxo]— but hey, who would ever want a dam / dams this close to the city?? What if they break??
 
-[^Historio-OC-barajxo]: Several proposals for building hydroelectric dams there have been drawn up in the past few decades, but unfortunately they all got shot down by nearby NIMBY farmers and internal corruptions.
+[^Historio-OC-barajxo]: Several proposals for building hydroelectric dams there have been drawn up in the past few decades, but unfortunately they all got shot down by the nearby NIMBY farmers and internal corruptions, and the heavy fossil fuel industry lobbying.
 
 … To which the <span style="color:Beige">Queen</span> simply replied: "All of those factors will make the city look even COOLER in the end!"[^Historio-OC-Racio].
 

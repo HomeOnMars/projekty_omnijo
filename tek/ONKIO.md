@@ -19,7 +19,7 @@ RelatedPages:
 <!-- > ONKIO: Omnija Norma Kodo por Informo-Interŝanĝo -->
 
 Legal
--------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
 
 > [!WARNING]
 > ONKIO table may be updated here without notice.  
@@ -28,12 +28,12 @@ Legal
 <p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/HomeOnMars/projekty_omnijo/blob/master/tek/ONKIO.md">ONKIO</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/HomeOnMars">HomeOnMars</a> is licensed under <a href="https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""></a></p>
 
 ONKIO Tablo
--------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
 
 > ONKIO Table  
 > [Back to OmniCentro Content](../OmniCentro/_OmniCentro.md#teknikaj-specifoj)
 
--------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
 
 Table generation code see [onkio.py](onkio.py);  
 Differences from the ASCII table are highlighted with **bold** text.
@@ -91,13 +91,13 @@ abcdefghijklmnopqrstuvŭxʌzĉĝĵŝ
 	- Letters and the most common punctuation marks are contained within `0x4_` to `0x7_`. This is designed to make compression of pure Epopo text mildly easier (and more fun to encode with techniques like ROT13-equivalent and such).
 	- English letters are mostly untouched from ASCII (except `W Y`), so plain ASCII texts should hopefully still be mostly legible if conversion failed or missed. (Most punctuation marks will be messed up though.)
 - Arrangement:
-	- To reduce the risk of a single bit flip (e.g. from cosmic rays) causing something catastrophic and hard to detect for codes, the special symbols (`0x1_` and `0x2_`) columns are separated into two groups based of the last 4 bits: with odd numbers of 1s and 0s (1, 2, 4, 7, 8, λ, Σ, Υ), and with even numbers of 1s and 0s (0, 3, 5, 6, 9, Δ, Π, Ψ). Each group are safe from single bit flipped into another symbol within the group, but not from the other group in the same column. The two columns are safe from each other.
+	- To reduce the risk of a single bit flip (e.g. from cosmic rays) causing something catastrophic and hard to detect for codes, the special symbols (`0x1_` and `0x2_`) columns are separated into two groups based on their last 4 bits: with odd numbers of 1s and 0s (1, 2, 4, 7, 8, λ, Σ, Υ), and with even numbers of 1s and 0s (0, 3, 5, 6, 9, Δ, Π, Ψ). Each group are safe from single bit flipped into another symbol within the group, but not from the other group in the same column. The two columns are safe from each other.
 	- The *odd* group are assigned numerical and logical operators: ``+ - ^ % 、! = ~ * / | < > ` : ; ``
 	- The *even* group are assigned grouping operators and other symbols: ``( ) @ # ' — ⌄ { } [ ] " ` $ `` etc 
-	- `0x2_` column symbols are more suitable for being included in file names; while `0x1_` are best avoided, as they more commonly used in shell scripts.
+	- `0x2_` column symbols are more suitable for being included in file names; while `0x1_` are best avoided, as they are more commonly used in shell scripts.
 
 ASCII Table
--------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
 
 For comparison:
 
