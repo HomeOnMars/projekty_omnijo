@@ -137,11 +137,11 @@ ASCIIIFY_CHR = {
     '⚻': 'tago',  # capitalized ver already defined
     '⚝': 'Se',
     '☾': 'Monato',
-    '⚡': 'potenco',   # word ver (no capitalizing, no prefix)
+    '⚡': 'Potenco',   # word ver (no prefix)
     '°': 'Deg',
     '🪙': 'OSR',
     chr(0x332): '_',
-    '⌄': 'projento',    # capitalized ver already defined
+    '⌄': 'Pohekvo',    # capitalized ver already defined
 }
 ASCIIIFY = {ord(k): v for k, v in ASCIIIFY_CHR.items()}
 
@@ -390,7 +390,8 @@ u_si_defs : dict[str, units.UnitBase] = {
         'C',
         'percent',
         'rad', 'deg', 'arcmin', 'arcsec',
-        'W', 'kW', 'MW', 'GW',  'TW', 'Lsun',
+        'kW', 'MW', 'GW',  'TW', 'Lsun',
+        'bit','byte',
     ]
 }
 units.def_unit('kph', units.km / units.h, namespace=u_si_defs)
@@ -400,7 +401,12 @@ units.def_unit(
     ((_WGS84_DEF[0]**2*_WGS84_DEF[1])**(1/3)).to(units.km),
     namespace=u_si_defs)
 u_si_defs['hp'] = units.imperial.hp
-
+units.def_unit('kByte', 2**10 * units.byte, namespace=u_si_defs)
+units.def_unit('MByte', 2**20 * units.byte, namespace=u_si_defs)
+units.def_unit('GByte', 2**30 * units.byte, namespace=u_si_defs)
+units.def_unit('TByte', 2**40 * units.byte, namespace=u_si_defs)
+units.def_unit('PByte', 2**50 * units.byte, namespace=u_si_defs)
+units.def_unit('EByte', 2**60 * units.byte, namespace=u_si_defs)
 
 
 # --- Natural Units ---
@@ -410,16 +416,16 @@ u_si_defs['hp'] = units.imperial.hp
 u_nat_base : dict[str, units.UnitBase] = {}
 u_nat_defs : dict[str, units.UnitBase] = {}
 u_nat_base['dist'] = units.def_unit(
-    'l_P', (const.hbar * const.G / const.c**3)**0.5,
+    'l_P', (8 * pi * const.G * const.hbar / const.c**3)**0.5,
     namespace=u_nat_defs, format={'latex': r' l_P '})
 u_nat_base['mass'] =  units.def_unit(
-    'm_P', (const.hbar * const.c / const.G   )**0.5,
+    'm_P', (const.hbar * const.c / (8 * pi * const.G))**0.5,
     namespace=u_nat_defs, format={'latex': r' m_P '})
 u_nat_base['time'] =  units.def_unit(
-    't_P', (const.hbar * const.G / const.c**5)**0.5,
+    't_P', (8 * pi * const.G * const.hbar / const.c**5)**0.5,
     namespace=u_nat_defs, format={'latex': r' t_P '})
 u_nat_base['temp'] =  units.def_unit(
-    'T_P', (const.hbar * const.c**5 / const.G)**0.5 / const.k_B,
+    'T_P', (const.hbar * const.c**5 / (8 * pi * const.G))**0.5 / const.k_B,
     namespace=u_nat_defs, format={'latex': r' T_P '})
 u_nat_base['angl'] = u_nat_defs['rad'] = units.rad
 
@@ -473,17 +479,16 @@ u_uxo_base : dict[str, units.UnitBase] = u_nat_base.copy()
 u_uxo_defs : dict[str, units.UnitBase] = {}
 #    defs
 u_uxo_base['dist'] = units.def_unit(
-    # note: 35931 / 3.0 = 11977
-    ['U', 'Utro'], 11977 * 2**105 * u_nat_base['dist'],
+    ['U', 'Utro'], 7 * 2**111 * u_nat_base['dist'],
     prefixes=u_uxo_prefixes, namespace=u_uxo_defs)
 u_uxo_base['mass'] = units.def_unit(
-    ['P', 'Pakmo'], 2**24 * u_nat_base['mass'],
+    ['P', 'Pakmo'], 2**28 * u_nat_base['mass'],
     prefixes=u_uxo_prefixes, namespace=u_uxo_defs)
 u_uxo_base['time'] = units.def_unit(
-    ['Ŝ', 'Ŝekunto'], 35931 * 2**129 * u_nat_base['time'],
+    ['Ŝ', 'Ŝekunto'], 7 * 2**139 * u_nat_base['time'],
     prefixes=u_uxo_prefixes, namespace=u_uxo_defs)
 u_uxo_base['temp'] = units.def_unit(
-    ['Z', 'Zoro'], 10011 * 2**(-120) * u_nat_base['temp'],
+    ['Z', 'Zoro'], 49 * 2**(-110) * u_nat_base['temp'],
     prefixes=u_uxo_prefixes, namespace=u_uxo_defs)
 u_uxo_base['char'] = units.def_unit(
     ['E', 'Elektrio'], 0x10**0x10/3 * const.e.si,
@@ -496,7 +501,7 @@ u_uxo_base['xdim'] = units.def_unit(
     [chr(0x332), 'Nuo'], 1 * units.dimensionless_unscaled,
     prefixes=u_uxo_prefixes, namespace=u_uxo_defs)
 u_uxo_base['byte'] = units.def_unit(
-    ['Bit', 'B', 'Bito'], 1 * units.bit,
+    ['B', 'Bito'], 1 * units.bit,
     prefixes=u_uxo_prefixes, namespace=u_uxo_defs)
 u_uxo_base['mono'] = units.def_unit(    # currency
     ['🪙', 'Sejro'], format={'latex': r' 🪙 '},
@@ -525,14 +530,14 @@ _UNITS_MASK_SET = {
 u_csl_base : dict[str, units.UnitBase] = {}
 u_csl_defs : dict[str, units.UnitBase] = {}
 u_csl_base['dist'] = units.def_unit(
-    'm_csl', (u_uxo_defs['U'] / (8*units.m) * units.m).si,
+    'm_csl', (u_uxo_defs['U'] / (1.5*units.m) * units.m).si,
     prefixes=True,
     namespace=u_csl_defs, format={'latex': r' m_\mathrm{CSL} '})
 u_csl_base['mass'] =  units.def_unit(
-    'kg_csl', (u_uxo_defs['MP'] / (25*units.t) * units.kg).si,
+    'kg_csl', (u_uxo_defs['GP'] / (5*units.t) * units.kg).si,
     namespace=u_csl_defs, format={'latex': r' kg_\mathrm{CSL} '})
 u_csl_base['time'] =  units.def_unit(
-    's_csl', units.s,
+    's_csl', (u_uxo_defs['MŜ'] / 86400).si,
     namespace=u_csl_defs, format={'latex': r' s_\mathrm{CSL} '})
 u_csl_base['temp'] = u_csl_defs['deg_C'] = units.deg_C
 u_csl_base['angl'] = u_csl_defs['deg']   = units.deg
@@ -571,6 +576,10 @@ normalize(u_csl_base)
 
 
 # RO unit extra defs
+#    distance
+units.def_unit(
+    ['Ŭ', 'Ŭtro'], 0x10/3 * u_uxo_defs['U'],  
+    prefixes=u_uxo_prefixes, namespace=u_uxo_defs)
 #    time
 units.def_unit(
     ['Ĉ', 'Ĉimuto'], u_uxo_defs['JŜ'], namespace=u_uxo_defs)
@@ -583,7 +592,8 @@ units.def_unit(
 units.def_unit(
     ['☾', 'Monato'],  4 * u_uxo_defs['Semajno'], namespace=u_uxo_defs)
 units.def_unit(
-    ['Ĵ', 'Ĵaro'], 0x16D3F44 * u_uxo_defs['Ŝ'],
+    # num of seconds: averaging over 128 calender years, ((128*365+31)*0x10000 - 128*0x934) / 128 = 16Σ34ΠΠ
+    ['Ĵ', 'Ĵaro'], 0x16D34CC * u_uxo_defs['Ŝ'],  
     prefixes=u_uxo_prefixes, namespace=u_uxo_defs)
 #    temperature
 Z = u_uxo_defs['Z']
@@ -638,10 +648,10 @@ equivalencies_temperature = [
     *equivalencies_Zoro,
     *units.equivalencies.temperature()]
 del eq, X, Z, __K_2_X, __X_2_K
-#    byte
-units.def_unit(
-    ['Baj', 'Bajto'],  8 * u_uxo_defs['Bit'],
-    prefixes=u_uxo_prefixes, namespace=u_uxo_defs)
+# #    byte --- unit removed to simplify unit system
+# units.def_unit(
+#     ['Baj', 'Bajto'],  0x10 * u_uxo_defs['Bito'],
+#     prefixes=u_uxo_prefixes, namespace=u_uxo_defs)
 #    speed
 units.def_unit('UoŜ', u_uxo_defs[ 'U']/u_uxo_defs['Ŝ'], namespace=u_uxo_defs)
 units.def_unit('JoĜ', u_uxo_defs['JU']/u_uxo_defs['Ĝ'], namespace=u_uxo_defs)
@@ -654,9 +664,11 @@ units.def_unit(
     namespace=u_uxo_defs)
 #    dimless
 units.def_unit(
-    ['⌄', 'Projento'], u_uxo_defs['Nuo'] / 0x100,
+    ['⌄', 'Pohekvo'], u_uxo_defs['Nuo'] / 0x10,
     namespace=u_uxo_defs)
-
+units.def_unit(
+    ['⌄⌄', 'Pojentvo'], u_uxo_defs['Nuo'] / 0x100,
+    namespace=u_uxo_defs)
 
 
 # csl unit extra defs
@@ -684,7 +696,7 @@ units.def_unit(
 #    power
 units.def_unit(
     ['E_csl', 'CSL_E', 'Electricity_csl', 'CSL_Electricity'],
-    u_uxo_defs['MLu'] / 40,
+    4 * u_uxo_defs['GLu'],
     format={'latex': r' E_\mathrm{CSL} '},
     prefixes=True, namespace=u_csl_defs)
 units.def_unit(
@@ -766,7 +778,7 @@ class Konstantoj:
 
     # track gauges
     reldistanco_std = (4*units.imperial.foot + 8.5 * units.imperial.inch).si
-    reldistanco_uxo = 3 * u.hU
+    reldistanco_uxo = 1 * u.U
 
 konst = Konstantoj()
 
@@ -804,7 +816,7 @@ class Datotempo:
     # number of Sx per komunjaro
     _JARO_Sx: np.int64 = np.int64(np.round(
         # note: include the extra seconds added in 13th month
-        (365 * u.MSx + 0x144 * u.Sx).to_value(u.Sx)))
+        (365 * u.MSx - 0x934 * u.Sx).to_value(u.Sx)))
     # number of Sx per 3 komunjaro + 1 superjaro
     _JAROJ4_Sx: np.int64 = np.int64(np.round(_JARO_Sx*4 + _TAGO_Sx))
     # number of Sx per 128 jaroj
@@ -1167,7 +1179,7 @@ class TeraLoko:
         )*2
 
         # alt_kodo_N = int(loko.alt.to_value(u.U)*4 + 0x4000)
-        pdat['alt'] = int(np.floor(loko.alt.to_value(u.U)*8))
+        pdat['alt'] = int(np.floor(loko.alt.to_value(u.m_csl)))
         if pdat['alt'] < 0:
             # last digit of cxelo is odd number if below sea level,
             # even number if above
@@ -1319,6 +1331,8 @@ if __name__ == '__main__':
 
     # sidereal year <https://en.wikipedia.org/wiki/Sidereal_year> (2025-02-28)
     #u_yr = units.d * 365.256363004
+    # solar year <https://en.wikipedia.org/wiki/Tropical_year#Mean_tropical_year_current_value> (2026-10-11)
+    #u_yr = units.d * 365.2421897
     u_yr = units.yr
     u_yr_b = (u_uxo.MSx / (1*u_yr - 1*u_uxo.Jx)).si * units.yr
     print(f"\n# of years before needing to subtract a day: {u_yr_b:.1f}")
