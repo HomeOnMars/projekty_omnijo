@@ -29,7 +29,7 @@ La Historio
 ----------------------------------------------------------------------------------------------------------------
 
 > The History  
-> [Back to OmniCentro Content](_OmniCentro.md#fonrakontoj)
+> [Back to OmniCentro Content](./_OmniCentro.md#fonrakontoj)
 
 ----------------------------------------------------------------------------------------------------------------
 
@@ -86,11 +86,10 @@ Granted, for whatever mind boggling reason, the corruption was essentially gone 
 
 But surely people, being people, would anger and rebel on the change of everything they know about their own country?[^Historio-RO-Protestoj]
 
-[^Historio-RO-Protestoj]: Actually, there were quite a few *"successful"* protests happened on the island since Serena's coronation.
-	As an example, there had been a large scale protest from the people to "improve healthcare and overhaul the medical system" happening a few weeks before the foundation of *OmniCentro*. <span style="color:Beige">Serena</span> totally agreed with the protesting people, and happily vowed that she will "fix the problem immediately tonight" in public. The next day, people waked up and found out that ALL doctors and nurses — at least the ones working in public hospitals — were fired from their positions (albeit with generous compensations for everyone); and new staff were hired OVERNIGHT, with the promised *significant structure change* already implemented.
+[^Historio-RO-Protestoj]: Actually, there were quite a few *"successful"* protests happened on the island since Serena's coronation.  
+	As an example, there had been a large scale protest from the people to "improve healthcare and overhaul the medical system" happening a few weeks before the foundation of *OmniCentro*. <span style="color:Beige">Serena</span> totally agreed with the protesting people, and happily vowed that she will "fix the problem immediately tonight" in public. The next day, people waked up and found out that ALL doctors and nurses — at least the ones working in public hospitals — were fired from their positions (albeit with generous compensations for everyone); and new staff were hired OVERNIGHT, with the promised *significant structure change* already implemented.  
 	One would be crazy to think <span style="color:Beige">she</span> can pull it off this time, even though she has obviously been planning this mass replacement move for a long time… But she did.  
-	The (somehow) much more competent replacement doctors and nurses (who are almost entirely made out of the immigrants from <span style="color:Beige">Serena</span>'s immigration program) successfully made the death rate in hospital dropped to near zero, curing became faster, doctors are more empathetic, and the overall health level in the entire island began to increase. 
-	(Not everyone bought that story though; and the emigration rate reached another high point after this shenanigan.)
+	The (somehow) much more competent replacement doctors and nurses (who are almost entirely made out of the immigrants from <span style="color:Beige">Serena</span>'s immigration program) successfully made the death rate in hospital dropped to near zero, curing became faster, doctors are more empathetic, and the overall health level in the entire island began to increase. (Not everyone bought that story though; and the emigration rate reached another high point after this shenanigan.)  
 	Funnily enough, despite what Serena calls the "overwhelming successes" of the protests, after the previous similar rounds of protests-and-responses with the overdelivering of the changes in the military / police / government structuring systems, people’s enthusiasm to use their new found power of protesting in Serena’s reign seems to be gradually and awkwardly dying down each time, until it completely fizzled out after the healthcare reform.
 
 … Or they could leave. Which is now easier-than-ever, by the way, as <span style="color:Beige">Reĝinʌ Serena</span> passed several laws allowing the renunciation of citizenship, recognizing dual citizenship, and providing heavy subsidies for transportations both coming to and leaving from the country, as well as a hefty farewell gift package for those who are leaving but either poor or veteran, allowing them to easily establish a new life elsewhere[^Historio-RO-Elmigrado-kmt1]. As such, many people took advantage of this, and emigration rate skyrocketed for weeks, while the population started to drop quickly. As a counter measure, <span style="color:Beige">Serena</span> also passed laws to streamline immigration process as well as to encourage immigrants to move in, and the immigration influx did increase. However, it wasn't nearly enough to stop the population drop— in the beginning.

@@ -1,16 +1,16 @@
 <!-- -*- coding: utf-8 -*- -->
 
 Projektʌ Omnijo
-===============================================================================
+================================================================================================================
 
 > Project Omnijo
 
 Documents, settings and stories for my worldbuilding exercise set in the fictional country of *Regnʌ Omnijo*.  
-It began as a background story I wrote for my Cities: Skylines 2 city *OmniCentro* ([PDX Mod link](https://mods.paradoxplaza.com/mods/97163/Any); [My other documentations](OmniCentro/_OmniCentro.md)),but ballooned into something more.
+It began as a background story I wrote for my Cities: Skylines 2 city *OmniCentro* ([PDX Mod link](https://mods.paradoxplaza.com/mods/97163/Any); [My other documentations](./OmniCentro/_OmniCentro.md)),but ballooned into something more.
 
-![RO emblem](fig/ROFlago.svg)
+![RO emblem](./fig/ROFlago.svg)
 
-*Regnʌ Omnijo* (RO) [flag](fig/Emblemo.md) (fictional).
+*Regnʌ Omnijo* (RO) [flag](./fig/Emblemo.md) (fictional).
 
 Legal
 ----------------------------------------------------------------------------------------------------------------
@@ -30,5 +30,5 @@ Contents
 ----------------------------------------------------------------------------------------------------------------
 
 - Cities documentations
-  - [***OmniCentro***](OmniCentro/_OmniCentro.md)
-  - [***Aiosa***](Aiosa/_Aiosa.md)
+  - [***OmniCentro***](./OmniCentro/_OmniCentro.md)
+  - [***Aiosa***](./Aiosa/_Aiosa.md)

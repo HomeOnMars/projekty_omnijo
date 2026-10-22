@@ -25,9 +25,8 @@ Legal
 Bulteno
 ----------------------------------------------------------------------------------------------------------------
 
-> Bulletin
-> <br>
-> [Back to OmniCentro Content](_OmniCentro.md#detalaj-informoj)
+> Bulletin  
+> [Back to OmniCentro Content](./_OmniCentro.md#detalaj-informoj)
 
 ----------------------------------------------------------------------------------------------------------------
 
@@ -50,7 +49,7 @@ Bulteno
 [^Bulteno-Loko-2]: Length unit JU is approximately 2km, and 1 MU ≈ Dx256 JU ≈ Dx500 km (see also [Unuoj | Units](../tek/Unuoj.md#longeco) page);  
 	H for hexadecimal, and D for decimal (see also [Lingvo | Langauge](../tek/Lingvo.md#algebro) page).
 
-For more details, see [the history of Omnijo](../OmniCentro/Historio.md#la-historio).
+For more details, see [the history of Omnijo](Historio.md#la-historio).
 
 ### Fonrakonta Bulteno
 
@@ -75,7 +74,7 @@ For more details, see [the history of Omnijo](../OmniCentro/Historio.md#la-histo
 | Oficiala Religio  <br>Official Religion                          | Pastafarianismo[^Bulteno-Religio] (oficiala)<br>Homismo (maloficiala)[^Bulteno-Religio-2]                                                                                                                                                                                              |
 | Oficialaj Koloroj  <br>Official Colors                           | <span style="color:Beige">█ Flavgriza/Beige `#F5F5DC`</span> [^Bulteno-Koloroj-Flavgriza]  <br><span style="color:DeepSkyBlue">█ Bluo/Blue `#00BFFF`</span> [^Bulteno-Koloroj-Bluo]  <br><span style="color:MediumPurple">█ Purpuro/Purple `#9370DB`</span> [^Bulteno-Koloroj-Purpuro] |
 | Oficialaj Himno  <br>Official Anthem                             | *Oceans* (*Where Feet May Fail*), originally by Hillsong UNITED  <br>Modified acoustic Epopo version[^Bulteno-Himno].                                                                                                                                                                  |
-| Oficialaj Flago  <br>Official Flag                               | ![ROFlago](../fig/ROFlago.svg)  <br>See [emblem](../fig/Emblemo.md#desegnoj) page for design explanation.                                                                                                                                                                            |
+| Oficialaj Flago  <br>Official Flag                               | ![ROFlago](ROFlago.svg)  <br>See [emblem](../fig/Emblemo.md#desegnoj) page for design explanation.                                                                                                                                                                                     |
 | Marko: Manĝaĵo  <br>Brand: Food                                  | Omnimanao                                                                                                                                                                                                                                                                              |
 
 [^Bulteno-RegistaraTipo]: Interviewer: "So, tell us what *you* think the kind of government our new *RO* government *OCR* is?"  

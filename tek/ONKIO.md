@@ -90,8 +90,8 @@ abcdefghijklmnopqrstuvŭxʌzĉĝĵŝ
 - Letters
 	- Letters and the most common punctuation marks are contained within `0x4_` to `0x7_`. This is designed to make compression of pure Epopo text mildly easier (and more fun to encode with techniques like ROT13-equivalent and such).
 	- English letters are mostly untouched from ASCII (except `W Y`), so plain ASCII texts should hopefully still be mostly legible if conversion failed or missed. (Most punctuation marks will be messed up though.)
-- Arrangement:
-	- To reduce the risk of a single bit flip (e.g. from cosmic rays) causing something catastrophic and hard to detect for codes, the special symbols (`0x1_` and `0x2_`) columns are separated into two groups based on their last 4 bits: with odd numbers of 1s and 0s (1, 2, 4, 7, 8, λ, Σ, Υ), and with even numbers of 1s and 0s (0, 3, 5, 6, 9, Δ, Π, Ψ). Each group are safe from single bit flipped into another symbol within the group, but not from the other group in the same column. The two columns are safe from each other.
+- Arrangement
+	- To reduce the risk of a single bit flip (e.g. from cosmic rays) causing something catastrophic and hard to detect for code files, the special symbols (`0x1_` and `0x2_`) columns are separated into two groups based on the last 4 bits of their binary code: with odd numbers of 1s and 0s (1, 2, 4, 7, 8, λ, Σ, Υ), and with even numbers of 1s and 0s (0, 3, 5, 6, 9, Δ, Π, Ψ). Each group are safe from single bit flipped into another symbol within the group, but not from the other group in the same column. The two columns are safe from each other.
 	- The *odd* group are assigned numerical and logical operators: ``+ - ^ % 、! = ~ * / | < > ` : ; ``
 	- The *even* group are assigned grouping operators and other symbols: ``( ) @ # ' — ⌄ { } [ ] " ` $ `` etc 
 	- `0x2_` column symbols are more suitable for being included in file names; while `0x1_` are best avoided, as they are more commonly used in shell scripts.

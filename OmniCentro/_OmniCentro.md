@@ -45,14 +45,14 @@ Detalaj Informoj
 - Map:  [Seaside Valley](https://mods.paradoxplaza.com/mods/82544/Any);
   City: [OmniCentro](https://mods.paradoxplaza.com/mods/97163/Any)
 - Established Date: 2024-12-21
-- [***Bulteno*** | Bulletin](Bulteno.md#bulteno)
-  - [***Fonrakontaj Resumoj*** | Backstories Summaries](Bulteno.md#fonrakontaj-resumoj): Brief summary here!
-- [***Sigloj***  | Acronyms](Sigloj.md#sigloj)
+- [***Bulteno*** | Bulletin](./Bulteno.md#bulteno)
+  - [***Fonrakontaj Resumoj*** | Backstories Summaries](./Bulteno.md#fonrakontaj-resumoj): Brief summary here!
+- [***Sigloj***  | Acronyms](./Sigloj.md#sigloj)
 <!--
-- [***Politikoj***  | Policies](Politikoj.md#politikoj)
-- [***Oftaj Demandoj***  | FAQ](OftajDemandoj.md#oftaj-demandoj)
+- [***Politikoj***  | Policies](./Politikoj.md#politikoj)
+- [***Oftaj Demandoj***  | FAQ](./OftajDemandoj.md#oftaj-demandoj)
 -->
-- [***La Historio*** | The History](Historio.md#la-historio): Main backstory starting here.
+- [***La Historio*** | The History](./Historio.md#la-historio): Main backstory starting here.
 
 Teknikaj Specifoj
 ----------------------------------------------------------------------------------------------------------------

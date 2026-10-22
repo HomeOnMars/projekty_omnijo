@@ -36,5 +36,5 @@ Detalaj Informoj
 - Map: [Volchoria](https://mods.paradoxplaza.com/mods/76483/Windows);
   City: Aiosa (TBD) 
 - Established Date: 2025-12-27
-- [***Bulteno*** | Bulletin](Bulteno.md#bulteno)
-  - [***Fonrakontaj Resumoj*** | Backstories Summaries](Bulteno.md#fonrakontaj-resumoj): Brief summary here!
+- [***Bulteno*** | Bulletin](./Bulteno.md#bulteno)
+  - [***Fonrakontaj Resumoj*** | Backstories Summaries](./Bulteno.md#fonrakontaj-resumoj): Brief summary here!

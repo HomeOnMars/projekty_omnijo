@@ -392,17 +392,17 @@ Built-in support for **hexadecimal algebra**:
 - Also you can just say `du muniutroj` directly, as 1 MU = Dx65536 U.
 - For fractions, add `-on` like in Esperanto. E.g. `munionutro`.
 - For prefix shorthands, always use no-hat capital letters for numbers \> 1 (e.g. H for Hx10 and J for Hx100 etc.) and no-hat lowercase for numbers \< 1 (e.g. h for Hx0.1 and j for Hx0.01 etc.)
-- For full list of prefix shorthands, see `u_ro_prefixes` `dict` in [unuoj.py](unuoj.py) file.
+- For full list of prefix shorthands, see `u_ro_prefixes` `dict` in [unuoj.py](./unuoj.py) file.
 
 #### Unuoj
 
 > Units
 
-See also [Unuoj](Unuoj.md) page.
+See also [Unuoj](./Unuoj.md) page.
 
 - Unit names must not start with `O`. This is both to avoid confusion with 0 and with `-on` prefix suffix.
 - For units shorthand (letter-based), always use capital letter (hat or not) as the first letter, and lowercase for the following letters. This helps to differentiate between the units part and prefix part of the shorthand.
-	E.g. [*Lu*](Unuoj.md#potenco) would be a unit by itself, while *LU* would indicate the prefix 'L' (=1⌄38≈2.7e67) combined with the unit [*U*](Unuoj.md#longeco).
+	E.g. [*Lu*](./Unuoj.md#potenco) would be a unit by itself, while *LU* would indicate the prefix 'L' (=1⌄38≈2.7e67) combined with the unit [*U*](./Unuoj.md#longeco).
 - Always use letter-based unit symbols for base units such as length ('U'), mass ('P'), time ('Ŝ'), etc.
 
 #### Scienca Notacio
@@ -416,7 +416,7 @@ See also [Unuoj](Unuoj.md) page.
 - `⌄` is choosen over letters for better visibility
 	(and potential expansion to base Dx32/Dx64 systems
 	using letters and other punctuations marks—
-	See [unuoj.py](unuoj.py) `TX_SYMBOLS_DICT` and `RX_SYMBOLS_DICT`.)  
+	See [unuoj.py](./unuoj.py) `TX_SYMBOLS_DICT` and `RX_SYMBOLS_DICT`.)  
 	`⌄` is easier to tell from the numbers,
 	which is the main reason why it is choosen over `h` or `p`.
 - E.g., `Hx 7 89Δλ ΠΣΥΨ 0000` can be shortened
@@ -444,7 +444,7 @@ Most of Epopo's punctuation marks are from Esperanto/English, though some are al
 
 #### '−' (Minus)
 
-- Differentiate between hyphen (linking words) and minus (subtracting numbers).
+- Differentiate between hyphen (functions as texts: linking words, marking text fields, etc.) and minus (functions as operators: subtracting numbers, forming part of the `->` operators, etc.).
 	- This is to help computer code differentiate variable names and operations.
 - Use minus as the minus math symbol.
 
@@ -636,7 +636,7 @@ See also [lernu.net](https://lernu.net/gramatiko/pronomoj) for the Esperanto imp
 > Time
 
 - Units and *`Omnijaro`* Calendar System (Ø+\* years)  
-	See also the [Units](../tek/Unuoj.md#tempo) page for explanation.
+	See also the [Units](./Unuoj.md#tempo) page for explanation.
 
 | Siglo | Formo     | Nomo           |
 | ----- | --------- | -------------- |
