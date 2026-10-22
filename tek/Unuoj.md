@@ -82,6 +82,7 @@ Utroj are calilbrated such that 1U is approximately human scale, while the speed
 
 > [!NOTE]
 > Useful length unit: ***Ŭtro*** `Ŭ` (CSL length unit)
+> 
 > $$\text{Ŭ} = \frac{10_H}{3} \  \text{U} \approx 7.8534_D \  \text{m}$$
 > 
 > - 1 cell width in-game (Cities Skylines 2) is considered as 1 Ŭ exactly
@@ -205,7 +206,7 @@ TBD: decide if I should cave and set the NKU dimensions to be 1:2.5 instead of 1
 > Mass
 
 > [!IMPORTANT]
-> Base mass unit: ***Pakmo*** `P` (Omnija kilogram)[^2]
+> Base mass unit: ***Pakmo*** `P` (Omnija kilogram)
 > 
 > $$
 > 	\text{P}
@@ -225,7 +226,7 @@ $$
   \approx 4.7734_D \  \text{t}
 $$
 
-1 DKU container is, on average, assumed to carry 4GP worth of goods ($1 \  \text{DKU} \approx 4 \  \text{GP} \approx 19.093_D \  \text{t}$).
+1 DKU container is, on average, assumed to carry 4 GP worth of goods ($1 \  \text{DKU} \approx 4 \  \text{GP} \approx 19.093_D \  \text{t}$).
 
 - *MuniPakmo* (`MP`)
 
@@ -254,8 +255,9 @@ which is the weight allowance for 4 DKU containers, used when engineering road/r
 > [!Deprecated]- Deprecated Old Definitions
 > Deprecated old Ŝekunto definition with normal Planck natural unit: $$\text{Ŝ} \equiv 35931_D \times 2^{129_D} \  t'_P = 1.18λ6⌄24 \  t'_P \approx 1.3183_D \  \text{s}$$ No longer in use, ignore.
 
-Ŝekuntoj are calilbrated such that each Earth day is about $16_D^4 \  Ŝ$, with an approximate difference of only Dx 8.5 SI seconds per day.  
-(Note that this difference is much larger than the old def of $1149807 \times 2^{124_D} t'_P$, which has only Dx 0.043 SI seconds difference per day. I prefer the current one because the arbitrary factor `7` is much smaller and simpler (simplicity is beauty in itself!); and that the 9 s difference is still small enough for day-to-day usage (high precision usage like for astronomical purposes will have to use alternative timing system anyway); and that RO will expand beyond Earth one day, so the simplicity of def should take priority over aligning precisely to Earth's rotation cycle, which is also slowing down over millennia.)
+Ŝekuntoj are calilbrated such that each Earth day is about $16_D^4 \  Ŝ$, with an approximate difference of only Dx 8.5 SI seconds per day[^Unuoj-5].
+
+[^Unuoj-5]: Note that this difference is much larger than the old def of $1149807 \times 2^{124_D} t'_P$, which has only Dx 0.043 SI seconds difference per day. I prefer the current one because the arbitrary factor `7` is much smaller and simpler (simplicity is beauty in itself!); and that the 9 s difference is still small enough for day-to-day usage (high precision usage like for astronomical purposes will have to use alternative timing system anyway); and that RO will expand beyond Earth one day, so the simplicity of def should take priority over aligning precisely to Earth's rotation cycle, which is also slowing down over millennia.
 
 - ***Ŝekunto*** `Ŝ`: Omnija second
 - *munionŜekuntoj* `mŜ`: $$\text{mŜ} \equiv 0.0001_H \  \text{Ŝ} \approx 0.02_D \  \text{ms}$$
@@ -404,7 +406,7 @@ Result:
 > Temperature
 
 > [!IMPORTANT]
-> Base temperature unit: ***Zoro*** `Z` (Omnija Kelvin)[^4]
+> Base temperature unit: ***Zoro*** `Z` (Omnija Kelvin)
 >
 > $$
 >   \text{Z}
@@ -483,49 +485,15 @@ Multiplied by 1/3 because quarks have -1/3 e or 2/3 e charges. *Elektrio* is sho
 
 Ck is just a full circle.
 
-- *hekonCirklo* (`hCk`)
+- *hekonCirklo* (`hCk`)  $$\text{hCk} \equiv \frac{1}{10_H} \  \text{Ck} = 22.5_D \degree$$
+- *jentonCirklo* (`jCk`)  $$\text{jCk} \equiv \frac{1}{100_H} \  \text{Ck} = 1.40625_D \degree$$
+- *gilonCirklo* (`gCk`)  $$\text{gCk} \equiv \frac{1}{1000_H} \  \text{Ck} \approx 5.2734_D \  \text{arcmin}$$
+- *munionCirklo* (`mCk`)  $$\text{mCk} \equiv \frac{1}{10000_H} \  \text{Ck} \approx 19.775_D \  \text{arcsec}$$
+- *dunionCirklo* (`dCk`)  $$\text{dCk} \equiv \frac{1}{10000_H^2} \  \text{Ck} \approx 0.30175_D \  \text{mas}$$
 
-$$
-  \textrm{hCk}
-  \equiv \frac{1}{10_H} \  \textrm{Ck}
-  = 22.5_D \degree
-$$
+$\text{mas}$ means milliarcsecond.
 
-- *jentonCirklo* (`jCk`)
-
-$$
-  \textrm{jCk}
-  \equiv \frac{1}{100_H} \  \textrm{Ck}
-  = 1.40625_D \degree
-$$
-
-- *gilonCirklo* (`gCk`)
-
-$$
-  \textrm{gCk}
-  \equiv \frac{1}{1000_H} \  \textrm{Ck}
-  \approx 5.2734_D \  \textrm{arcmin}
-$$
-
-- *munionCirklo*  (`mCk`)
-
-$$
-  \textrm{mCk}
-  \equiv \frac{1}{10000_H} \  \textrm{Ck}
-  \approx 19.775_D \  \textrm{arcsec}
-$$
-
-- *dunionCirklo*  (`dCk`)
-
-$$
-  \textrm{dCk}
-  \equiv \frac{1}{10000_H^2} \  \textrm{Ck}
-  \approx 0.30175_D \  \textrm{mas}
-$$
-
-mas means milliarcsecond.
-
-Note: The angular diameter of the closest star, Proxima Centauri, is Dx1.02 ± 0.08 mas[^Unuoj-0], or approximately Hx3.61 dCk.
+Note: The angular diameter of the closest star, Proxima Centauri, is Dx 1.02 ± 0.08 mas[^Unuoj-0], or approximately Hx 3.61 dCk.
 
 [^Unuoj-0]: Reference see this ESO article "[How Small are Small Stars Really?](https://www.eso.org/public/news/eso0232/)" (2025-05-21)
 
@@ -561,44 +529,16 @@ $$
 > Bits and bytes
 
 > [!IMPORTANT]
-> Base Bit unit: ***Bito*** `Bit` (Bit, or `B`)  
-> ~~(Avoid using `B` to avoid confusion with SI byte $\textrm{B}_\textrm{SI}$.)~~
+> Base Bit unit: ***Bito*** `Bit` (Bit, or `B`)
+> 
+> Omnijo also uses `HB` (Dx 16 Bits) as the byte-equivalent concept in its computational systems, instead of 8 bits like the rest of the world.  
 
-- *HekBito* (`HBito`)  
-	Omnijo uses `HB` (Dx 16 Bits) as the byte-equivalent concept in its computational systems, instead of 8 bits like the rest of the world.
-$$
-  \text{HBito}
-  = 10_H \text{Bito}
-  = 2 \text{B}_\text{SI}
-$$
-- *GilBito*  (`GBito`)  
-$$
-  \text{GBito}
-  \equiv 1000_H \  \text{Bito}
-  = ½ \  \text{kB}_\text{SI}
-$$
-- *MuniBito*  (`MBito`)  
-$$
-  \text{MBito}
-  \equiv 10000_H \  \text{Bito}
-  = 8 \  \text{kB}_\text{SI}
-$$
-- *DuniBito*  (`DBito`)  
-$$
-  \text{DBito}
-  \equiv 10000_H^2 \  \text{Bito}
-  = ½ \  \text{GB}_\text{SI}
-$$
-- *TriniBito*  (`TBito`)  
-$$
-  \text{TBito}
-  = 32_D \  \textrm{TB}_\text{SI}
-$$
-- *KvarniBito*  (`RBito`)  
-$$
-  \text{RBito}
-  = 2 \  \text{EB}_\text{SI}
-$$
+- *HekBito* (`HBito`)  $$\text{HBito} = 10_H \text{Bito} = 2 \text{B}_\text{SI}$$
+- *GilBito* (`GBito`)  $$\text{GBito} \equiv 1000_H \  \text{Bito} = ½ \  \text{kB}_\text{SI}$$
+- *MuniBito* (`MBito`)  $$\text{MBito} \equiv 10000_H \  \text{Bito} = 8 \  \text{kB}_\text{SI}$$
+- *DuniBito* (`DBito`)  $$\text{DBito} \equiv 10000_H^2 \  \text{Bito} = ½ \  \text{GB}_\text{SI}$$
+- *TriniBito* (`TBito`)  $$\text{TBito} = 32_D \  \text{TB}_\text{SI}$$
+- *KvarniBito* (`RBito`)  $$\text{RBito} = 2 \  \text{EB}_\text{SI}$$
 
 Derivitaj Unuoj
 ----------------------------------------------------------------------------------------------------------------
@@ -771,7 +711,7 @@ Kromaĵo
 - *Speed of light* (as already mentioned before in [Utro](#longeco))  $$c = l_P / t_P = 1000_H \  \text{MU/Ŝ}$$
 - Reduced Planck constant[^Konst-7]  $$\hbar = c \  l_P \  m_P = \frac{2}{7} \times 10_H^{{-1Π}_H} \  \text{U}^2\text{P}/\text{Ŝ}
   \approx \text{4.9249⌄-1Σ} \  \text{U}^2\text{P}/\text{Ŝ}$$
-- Gravitational constant[^Konst-7] $$8 \pi G = c^2 \  l_P / m_P = \frac{2}{7} \times 10_H^{{-7}} \  \text{U}^3/(\text{P}\text{Ŝ}^2) \approx \text{4.9249⌄-1Σ} \  \text{U}^3/(\text{P}\text{Ŝ}^2)$$
+- Gravitational constant[^Konst-7] $$8 \pi G = c^2 \  l_P / m_P = \frac{2}{7} \times 10_H^{{-7}} \  \text{U}^3/(\text{P}\text{Ŝ}^2) \approx \text{4.9249⌄-8} \  \text{U}^3/(\text{P}\text{Ŝ}^2)$$
 - Boltzmann constant $$k_B = c^2 \  m_P / T_P = \text{Π.4⌄-14} \  \text{U}^2\text{P}/(\text{Ŝ}^2\text{Z})$$
 - Earth surface gravity  $$g_0 \approx λ.94_H \  \text{U}/\text{Ŝ}^2 = 9.81 \  \text{m}/\text{s}^2$$
 
