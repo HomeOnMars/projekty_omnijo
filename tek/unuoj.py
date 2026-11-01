@@ -654,7 +654,6 @@ del eq, X, Z, __K_2_X, __X_2_K
 #     prefixes=u_uxo_prefixes, namespace=u_uxo_defs)
 #    speed
 units.def_unit('UoŜ', u_uxo_defs[ 'U']/u_uxo_defs['Ŝ'], namespace=u_uxo_defs)
-units.def_unit('JoĜ', u_uxo_defs['JU']/u_uxo_defs['Ĝ'], namespace=u_uxo_defs)
 #    power
 units.def_unit(
     ['Lu', 'Lumro'], 0x1 * u_uxo_base['power'],

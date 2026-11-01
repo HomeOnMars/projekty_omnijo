@@ -80,7 +80,7 @@ Bazaj Unuoj
 
 Utroj are calilbrated such that 1U is approximately human scale, while the speed of light $c = 1000 \ 0000_H \textrm{U/Ŝ}$ precisely under the [time definition Ŝ](#tempo).
 
-> [!NOTE]
+> [!Info] CSL Units
 > Useful length unit: ***Ŭtro*** `Ŭ` (CSL length unit)
 > 
 > $$\text{Ŭ} = \frac{10_H}{3} \  \text{U} \approx 7.8534_D \  \text{m}$$
@@ -126,31 +126,31 @@ Track and loading gauges in *RO* are:
 	- *Train*  
 		λ hŬ (≈ Dx5.3986 m)
 	- Note:
-		keep a minimum 3/4 hU electrical clearance inbetween the top of trains and the overhead wires.
+		keep a minimum 3/4 hŬ electrical clearance inbetween the top of trains and the overhead wires.
 - Capacity  
-	Assuming each seat is 1 hU wide and 2 hU long, and the cabin is 5 hU tall, this implies a capacity of passengers per U car length of
+	Assuming each seat is 1 hŬ wide and 2 hŬ long, and the cabin is 5 hŬ tall, this implies a capacity of passengers per Ŭ car length of
 	- *Tram*:
 		<!-- single floor, longitudinal seating layout, 2 seats + 2 standing per 1 hU length, i.e.   -->
 		7 passengers/m / 9 passengers/m (door)  
 		Dx60 passengers/Ŭ (excluding driver's cabins at both ends),  
-		or Dx224 passengers per 4U-long tram.
+		or Dx224 passengers per 4Ŭ-long tram.
 	- *Metro*:
 		<!-- single floor, longitudinal seating layout, driverless, 2 seats + 3 standing per 1 hU length, i.e.   -->
 		8 passengers/m (window) / Δ passengers/m (door)  
 		Dx68 passengers/Ŭ,  
-		or Dx816 passengers per 12U-long metro train.
+		or Dx816 passengers per 12Ŭ-long metro train.
 	- *Train (local)*:
 		<!-- double-decker, transverse seating layout, driverless, 6 seats per 2 hU length (plus 1 empty hU for corridors), 1 U single-decker (same stats as metro) + ½ U for stairs/toilets + 1½ U double-decker, i.e.   -->
 		Average \~Dx74.67 passengers/Ŭ (excluding driver's cabins),  
-		or Dx224 passengers per 3U-long train car,  
-		or Dx1792 passengers per 24U-long train.
+		or Dx224 passengers per 3Ŭ-long train car,  
+		or Dx1792 passengers per 24Ŭ-long train.
 	- *Train (high speed)*:
 		<!-- single floor, transverse seating layout, driverless, 6 seats per 2 hU length (plus 1 empty hU for corridors), i.e.   -->
 		6 passengers/m  
 		Dx48 passengers/Ŭ
 		(excluding driver's cabins, toilets, first class, etc),  
-		or Dx120 passengers per 3U-long train car,  
-		or Dx960 passengers per 24U-long train.
+		or Dx120 passengers per 3Ŭ-long train car,  
+		or Dx960 passengers per 24Ŭ-long train.
 	- *Train (cargo)*:
 		<!-- double-stack, i.e. 2MP/car, i.e.   -->
 		8GP/Ŭ, i.e. 38t per car, i.e. \~1kt per engine (hauling 20 cars each) ***FIX THIS*** #ToDo/ToImplement 
@@ -227,6 +227,8 @@ $$
 $$
 
 1 DKU container is, on average, assumed to carry 4 GP worth of goods ($1 \  \text{DKU} \approx 4 \  \text{GP} \approx 19.093_D \  \text{t}$).
+
+1 Cities: Skylines (CSL) ton is considered 1/5 GP: $$t_\text{CSL} \equiv \frac{1}{5} \text{GP}$$
 
 - *MuniPakmo* (`MP`)
 
@@ -561,7 +563,7 @@ $$
 
 #### Speed of light
 
-The speed of light (in vacuum) is exactly
+The speed of light in vacuum is exactly
 
 $$
   c
@@ -573,8 +575,8 @@ So when speed exceeds 1 MU/Ŝ (or ≈0.025\%c), relativistic effects should be c
 
 #### Human walking speed
 
-Human walking speed ≈ Dx 1.4 U/Ŝ ≈ 5 kph, or Hx 1.0 \~ 1.8 U/Ŝ (4 \~ 6 kph)[^Unuoj-1].
-A 1Ĉ (≈5.6min) walking distance can thus be defined as Hx40U or **Dx64U**, which is approximately Dx503m (or Dx512 CSL meters).
+Human walking speed ≈ Hx 1.4 U/Ŝ ≈ 5 kph, or Hx 1.0 \~ 1.8 U/Ŝ (4 \~ 6 kph)[^Unuoj-1].  
+A 1Ĉ (≈5.6min) walking distance can thus be defined as Hx140U or **Dx60Ŭ**, which is approximately Dx471m (or Dx480 CSL meters).
 
 [^Unuoj-1]: Source (2025-07-03) [Wikipedia](https://en.wikipedia.org/wiki/Preferred_walking_speed).
 
@@ -588,34 +590,33 @@ Biking speed (e-bike, relaxing): ≈ 5 U/Ŝ  (≈ Dx 20 kph)[^Unuoj-3].
 
 Walkable distances:
 
-| Time (Dx min) | Time (HxĈ) | Distance (Hx U) | Distance (Dx Ŭ) | Distance (Dx $m_\text{CSL}$) |
-| :------------ | :--------: | :-------------: | :-------------: | :--------------------------: |
-| Dx  6 min     |     1Ĉ     |       140       |       60        |             480              |
-| Dx 11 min     |     2Ĉ     |       280       |       120       |             960              |
-| Dx 17 min     |     3Ĉ     |       3Π0       |       180       |             1440             |
-| Dx 23 min     |     4Ĉ     |       500       |       240       |             1920             |
+| Time             | Distance<br>(Hx) | Distance<br>(Dx CSL) |
+| :--------------- | :--------------: | :------------------: |
+| 1 Ĉ<br>Dx  6 min |      140 U       |    60 Ŭ<br>480 m     |
+| 2 Ĉ<br>Dx 11 min |      280 U       |    120 Ŭ<br>960 m    |
+| 3 Ĉ<br>Dx 17 min |      3Π0 U       |   180 Ŭ<br>1440 m    |
+| 4 Ĉ<br>Dx 23 min |      500 U       |   240 Ŭ<br>1920 m    |
 
-#### Speed limits examples
+#### Speed Limits Examples
 
 (kph limit is corrected with a multiplication factor of `8m/U`)
 
-|   U/Ŝ | CSL kph (proksimumo) | CSL kph (limo) |
-| ----: | :------------------: | -------------: |
-| Hx 60 |        Dx 386        |         Dx 385 |
-| Hx 57 |        Dx 350        |         Dx 350 |
-| Hx 40 |        Dx 257        |         Dx 255 |
-| Hx 2λ |        Dx 173        |         Dx 175 |
-| Hx 20 |        Dx 129        |         Dx 130 |
-| Hx 1Υ |        Dx 121        |         Dx 120 |
-| Hx 19 |       Dx  101        |         Dx 100 |
-| Hx 16 |        Dx  88        |         Dx  90 |
-| Hx 13 |        Dx  76        |         Dx  75 |
-| Hx 10 |        Dx 64         |          Dx 65 |
-|     Π |        Dx  48        |         Dx  50 |
-|     Δ |        Dx  40        |         Dx  40 |
-|     8 |        Dx  32        |         Dx  30 |
-|     5 |        Dx  20        |         Dx  20 |
-|     2 |        Dx  8         |         Dx  10 |
+|   U/Ŝ | SI kph<br>(proksimumo) | CSL kph<br>(limo) |
+| ----: | :--------------------: | ----------------: |
+| Hx 60 |         Dx 386         |            Dx 395 |
+| Hx 40 |         Dx 257         |            Dx 260 |
+| Hx 30 |         Dx 193         |            Dx 195 |
+| Hx 2Δ |         Dx 169         |            Dx 170 |
+| Hx 20 |         Dx 129         |            Dx 130 |
+| Hx 18 |         Dx  96         |            Dx 100 |
+| Hx 16 |         Dx  88         |            Dx  90 |
+| Hx 10 |         Dx  64         |            Dx  65 |
+|     Π |         Dx  48         |            Dx  50 |
+|     Δ |         Dx  40         |            Dx  40 |
+|     8 |         Dx  32         |            Dx  30 |
+|     5 |         Dx  20         |            Dx  20 |
+|     4 |         Dx  16         |            Dx  15 |
+|     2 |         Dx  8          |            Dx  10 |
 
 ### Potenco
 
